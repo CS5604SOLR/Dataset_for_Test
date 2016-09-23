@@ -22,7 +22,7 @@ hbase(main):001:0> create 'test', 'raw_cf'
 
 [cloudera@quickstart ~]$ solrctl instancedir --generate $HOME/datatest_collection
 
-Replace the default schema.xml with this one
+Replace the default schema.xml with the one here
 
 [cloudera@quickstart ~]$ solrctl instancedir --create datatest_collection $HOME/datatest_collection
 
