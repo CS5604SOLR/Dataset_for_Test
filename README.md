@@ -6,7 +6,7 @@ schema.xml -- For Solr
 
 log4j.properties, morphlines.conf, morphline-hbase-mapper.xml -- For LilyIndexer
 
-#Indexing Data (Important Steps)
+#Indexing Data on Virtual Cloudera
 
 1 -- Import Data into HDFS and HBase
 
