@@ -28,11 +28,9 @@ Replace the default schema.xml with the one here
 
 [cloudera@quickstart ~]$ solrctl collection --create datatest_collection
 
-3 -- Morphline
+3 -- LilyIndexer
 
 Copy log4j.properties, morphlines.conf and morphline-hbase-mapper.xml to your local directory.
-
-4 -- LilyIndexer
 
 For Virtual Cloudera
 
