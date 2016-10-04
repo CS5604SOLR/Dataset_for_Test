@@ -31,6 +31,7 @@ Replace the default schema.xml with the one here
 3 -- LilyIndexer
 
 Copy log4j.properties, morphlines.conf and morphline-hbase-mapper.xml to your local directory.
+For Virtual Cloudera 5.8, the morphlines.conf must be put under the path: /etc/hbase-solr/conf/
 
 [cloudera@quickstart ~]$ hadoop --config /etc/hadoop/conf jar /usr/lib/hbase-solr/tools/hbase-indexer-mr-*-job.jar --conf /etc/hbase/conf/hbase-site.xml -D 'mapred.child.java.opts=-Xmx500m' --hbase-indexer-file [LOCAL_DIR]/morphline-hbase-mapper.xml --zk-host 127.0.0.1/solr --collection [COLLECTION_NAME] --go-live --log4j [LOCAL_DIR]/log4j.properties
 
@@ -44,7 +45,9 @@ Update/Delete Solr collection: [solrctl --help]
 
 [SolrQuerySyntax](https://wiki.apache.org/solr/SolrQuerySyntax)
 
-[Lily HBase Index](http://www.cloudera.com/documentation/archive/search/1-3-0/Cloudera-Search-User-Guide/csug_hbase_batch_indexer.html)
+[Lily HBase Index (For Virtual Cloudera 5.3)](http://www.cloudera.com/documentation/enterprise/5-3-x/topics/search_hbase_batch_indexer.html)
+
+[Lily HBase Index (For Virtual Cloudera 5.8)](http://www.cloudera.com/documentation/enterprise/latest/topics/search_hbase_batch_indexer.html)
 
 #Screenshots
 if you see some similar screeshots, you succeed!
