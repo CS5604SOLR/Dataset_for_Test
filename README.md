@@ -40,8 +40,10 @@ Delete table in HBase: [disable 'TABLE_NAME'] [drop 'TABLE_NAME']
 
 Update/Delete Solr collection: [solrctl --help]
 
-Useful links:
+#Useful links:
+
 [SolrQuerySyntax](https://wiki.apache.org/solr/SolrQuerySyntax)
+
 
 #Screenshots
 if you see some similar screeshots, you succeed!
