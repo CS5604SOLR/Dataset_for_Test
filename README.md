@@ -67,3 +67,6 @@ scan "test"
 
 ## Webpage for HBase layout with raw data
 ![myimage-alt-tag](https://github.com/CS5604SOLR/Dataset_for_Test/blob/master/screenshots/hbaselayout.png)
+
+## Webpage for indexing in Solr
+![myimage-alt-tag](https://github.com/CS5604SOLR/Dataset_for_Test/blob/master/screenshots/query.png)
