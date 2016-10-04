@@ -63,3 +63,7 @@ scan "test"
 
 ## for testing the solrctl instancedir and create command (after you generate and create a datatest_collection)
 ![myimage-alt-tag](https://github.com/CS5604SOLR/Dataset_for_Test/blob/master/screenshots/collection-list.png)
+
+
+## Webpage for HBase layout with raw data
+![myimage-alt-tag](https://github.com/CS5604SOLR/Dataset_for_Test/blob/master/screenshots/hbaselayout.png)
