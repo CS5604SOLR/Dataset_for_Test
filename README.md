@@ -61,5 +61,5 @@ scan "test"
 ![myimage-alt-tag](https://github.com/CS5604SOLR/Dataset_for_Test/blob/master/screenshots/scan-finish.png)
 
 
-### for testing the solrctl instancedir and create command. (after you generate and create a datatest_collection)
+### for testing the solrctl instancedir and create command (after you generate and create a datatest_collection)
 ![myimage-alt-tag](https://github.com/CS5604SOLR/Dataset_for_Test/blob/master/screenshots/collection-list.png)
