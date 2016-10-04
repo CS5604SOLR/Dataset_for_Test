@@ -44,6 +44,7 @@ Update/Delete Solr collection: [solrctl --help]
 
 [SolrQuerySyntax](https://wiki.apache.org/solr/SolrQuerySyntax)
 
+[Lily HBase Index](http://www.cloudera.com/documentation/archive/search/1-3-0/Cloudera-Search-User-Guide/csug_hbase_batch_indexer.html)
 
 #Screenshots
 if you see some similar screeshots, you succeed!
