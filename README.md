@@ -44,6 +44,8 @@ For Virtual Cloudera 5.8, the morphlines.conf must be put under the path: /etc/h
 
 [cloudera@quickstart ~]$ hadoop --config /etc/hadoop/conf jar /usr/lib/hbase-solr/tools/hbase-indexer-mr-*-job.jar --conf /etc/hbase/conf/hbase-site.xml -D 'mapred.child.java.opts=-Xmx500m' --hbase-indexer-file [LOCAL_DIR]/morphline-hbase-mapper.xml --zk-host 127.0.0.1/solr --log4j [LOCAL_DIR]/log4j.properties --collection [COLLECTION_NAME] --verbose --output-dir hdfs://quickstart.cloudera/user/cloudera/small-index --overwrite-output-dir --shards 1
 
+If a Java Heap Space error kills the indexing job , change the values of mapreduce.map.java.opts and mapreduce.map.java.opts in mapred-site.xml (/etc/hadoop/conf/) 
+
 #### Copy the index files into local directory
 
 [cloudera@quickstart ~]$ hadoop fs -get small-index/results/part-00000/data/index index
