@@ -43,7 +43,7 @@ Update/Delete Solr collection: [solrctl --help]
 #Screenshots
 if you see some similar screeshots, you succeed!
 
-###### for importing a table into a hbase (after org.apache.hadoop.hbase.mapreduce.ImportTsv command)
+### for importing a table into a hbase (after org.apache.hadoop.hbase.mapreduce.ImportTsv command)
 open a shell:
 ```bash
 hbase shell
@@ -61,5 +61,5 @@ scan "test"
 ![myimage-alt-tag](https://github.com/CS5604SOLR/Dataset_for_Test/blob/master/screenshots/scan-finish.png)
 
 
-###### for testing the solrctl instancedir and create command. (after you generate and create a datatest_collection)
+### for testing the solrctl instancedir and create command. (after you generate and create a datatest_collection)
 ![myimage-alt-tag](https://github.com/CS5604SOLR/Dataset_for_Test/blob/master/screenshots/collection-list.png)
