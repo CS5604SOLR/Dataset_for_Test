@@ -43,9 +43,10 @@ Update/Delete Solr collection: [solrctl --help]
 #Screenshots
 if you see some similar screeshots, you succeed!
 
+###### for importing a table into a hbase (after org.apache.hadoop.hbase.mapreduce.ImportTsv command)
 open a shell:
 ```bash
-  hbase shell
+hbase shell
 ```
 
 get a list of tables
