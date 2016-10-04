@@ -52,17 +52,21 @@ If a Java Heap Space error kills the indexing job , change the values of mapredu
 
 #### Clear the existing solr collection on HDFS
 
-sudo -u hdfs hadoop fs -rm -r /solr/[COLLECTION_NAME]/core_node1/data/index
+[cloudera@quickstart ~]$ sudo -u hdfs hadoop fs -rm -r -skipTrash /solr/[COLLECTION_NAME]/core_node1/data/index
 
-sudo -u hdfs hadoop fs -rm -r /solr/[COLLECTION_NAME]/core_node1/data/tlog
+[cloudera@quickstart ~]$ sudo -u hdfs hadoop fs -rm -r -skipTrash /solr/[COLLECTION_NAME]/core_node1/data/tlog
+
+or
+
+[cloudera@quickstart ~]$ solrctl collection --deletedocs [COLLECTION_NAME]
 
 #### Put the offline index files into the solr collection
 
-sudo -u solr hadoop fs -put index /solr/[COLLECTION_NAME]/core_node1/data/
+[cloudera@quickstart ~]$ sudo -u solr hadoop fs -put index /solr/[COLLECTION_NAME]/core_node1/data/
 
 #### Restart the solr service
 
-sudo service solr-server restart
+[cloudera@quickstart ~]$ sudo service solr-server restart
 
 
 ## Tips:
