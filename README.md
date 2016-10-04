@@ -1,6 +1,6 @@
 # Dataset_for_Test
 
-Dataset_test.csv -- Modified Tweets Data
+dataset_test.csv -- Modified Tweets Data
 
 schema.xml -- For Solr
 
@@ -10,7 +10,7 @@ log4j.properties, morphlines.conf, morphline-hbase-mapper.xml -- For LilyIndexer
 
 1 -- Import Data into HDFS and HBase
 
-[cloudera@quickstart ~]$ hadoop fs -put Dataset_test.csv
+[cloudera@quickstart ~]$ hadoop fs -put dataset_test.csv
 
 [cloudera@quickstart ~]$ hbase shell
 
