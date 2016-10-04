@@ -43,9 +43,18 @@ Update/Delete Solr collection: [solrctl --help]
 #Screenshots
 if you see some similar screeshots, you succeed!
 
+open a shell:
 ```bash
   hbase shell
-  list 
-  scan test
+```
+
+get a list of tables
+```bash
+list
+```
+
+scan the table named test
+```bash
+scan "test"
 ```
 ![myimage-alt-tag](https://github.com/CS5604SOLR/Dataset_for_Test/blob/master/screenshots/scan-finish.png)
