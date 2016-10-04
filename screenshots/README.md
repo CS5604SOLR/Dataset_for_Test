@@ -1,6 +1,6 @@
 
 
-## Screenshots
+# README for Screenshots
 if you see some similar screeshots, you succeed!
 
 ## Test importing a table into a hbase (after org.apache.hadoop.hbase.mapreduce.ImportTsv command)
