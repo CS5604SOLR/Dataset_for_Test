@@ -51,6 +51,7 @@ For Virtual Cloudera 5.8, the morphlines.conf must be put under the path: /etc/h
 #### Clear the existing solr collection on HDFS
 
 sudo -u hdfs hadoop fs -rm -r /solr/[COLLECTION_NAME]/core_node1/data/index
+
 sudo -u hdfs hadoop fs -rm -r /solr/[COLLECTION_NAME]/core_node1/data/tlog
 
 #### Put the offline index files into the solr collection
