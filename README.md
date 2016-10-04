@@ -31,6 +31,7 @@ Replace the default schema.xml with the one here
 3 -- LilyIndexer
 
 Copy log4j.properties, morphlines.conf and morphline-hbase-mapper.xml to your local directory.
+
 For Virtual Cloudera 5.8, the morphlines.conf must be put under the path: /etc/hbase-solr/conf/
 
 [cloudera@quickstart ~]$ hadoop --config /etc/hadoop/conf jar /usr/lib/hbase-solr/tools/hbase-indexer-mr-*-job.jar --conf /etc/hbase/conf/hbase-site.xml -D 'mapred.child.java.opts=-Xmx500m' --hbase-indexer-file [LOCAL_DIR]/morphline-hbase-mapper.xml --zk-host 127.0.0.1/solr --collection [COLLECTION_NAME] --go-live --log4j [LOCAL_DIR]/log4j.properties
