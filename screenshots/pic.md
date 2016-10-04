@@ -1,10 +1,4 @@
-## Useful links:
 
-[SolrQuerySyntax](https://wiki.apache.org/solr/SolrQuerySyntax)
-
-[Lily HBase Index (For Virtual Cloudera 5.3)](http://www.cloudera.com/documentation/enterprise/5-3-x/topics/search_hbase_batch_indexer.html)
-
-[Lily HBase Index (For Virtual Cloudera 5.8)](http://www.cloudera.com/documentation/enterprise/latest/topics/search_hbase_batch_indexer.html)
 
 ## Screenshots
 if you see some similar screeshots, you succeed!
