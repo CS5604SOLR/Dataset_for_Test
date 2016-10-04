@@ -41,6 +41,11 @@ Delete table in HBase: [disable 'TABLE_NAME'] [drop 'TABLE_NAME']
 Update/Delete Solr collection: [solrctl --help]
 
 #Screenshots
-if you see some screeshots, you succeed!
+if you see some similar screeshots, you succeed!
 
+```bash
+  hbase shell
+  list 
+  scan test
+```
 ![myimage-alt-tag](https://github.com/CS5604SOLR/Dataset_for_Test/blob/master/screenshots/scan-finish.png)
