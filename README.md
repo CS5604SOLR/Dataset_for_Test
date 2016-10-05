@@ -56,7 +56,7 @@ If a Java Heap Space error kills the indexing job , change the values of mapredu
 
 [cloudera@quickstart ~]$ sudo -u hdfs hadoop fs -rm -r -skipTrash /solr/[COLLECTION_NAME]/core_node1/data/tlog
 
-or
+(Optional)
 
 [cloudera@quickstart ~]$ solrctl collection --deletedocs [COLLECTION_NAME]
 
