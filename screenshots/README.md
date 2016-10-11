@@ -34,3 +34,5 @@ solrctl collection --list
 
 ## Webpage for indexing in Solr
 ![myimage-alt-tag](https://github.com/CS5604SOLR/Dataset_for_Test/blob/master/screenshots/query.png)
+
+## Facet Search
