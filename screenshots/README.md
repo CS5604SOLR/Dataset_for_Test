@@ -38,7 +38,9 @@ solrctl collection --list
 ## Facet Search
 
 The query - set facet true
+
 ![myimage-alt-tag](https://github.com/CS5604SOLR/Dataset_for_Test/blob/master/screenshots/1.png)
 
-The result
+The result:
+
 ![myimage-alt-tag](https://github.com/CS5604SOLR/Dataset_for_Test/blob/master/screenshots/2.png)
