@@ -37,7 +37,9 @@ solrctl collection --list
 
 ## Facet Search
 
-The query - set facet true
+Here are some useful links on facet search:
+
+The query - set facet true 
 
 ![myimage-alt-tag](https://github.com/CS5604SOLR/Dataset_for_Test/blob/master/screenshots/1.png)
 
