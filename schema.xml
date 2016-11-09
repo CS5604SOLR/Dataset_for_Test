@@ -113,6 +113,12 @@
    <!-- catchall field, containing all other searchable text fields (implemented
         via copyField further on in this schema  -->
    <field name="text" type="text_general" indexed="true" stored="true" multiValued="true"/>
+
+   <field name="source_s" type="string" indexed="true" stored="true"/>
+   <field name="screen_name_s" type="string" indexed="true" stored="true"/>
+   <field name="created_time_dt" type="date" indexed="true" stored="true"/>
+   <field name="language_s" type="string" indexed="true" stored="true"/>
+
    <field name="_version_" type="long" indexed="true" stored="true"/>
 
    <!--
@@ -205,9 +211,7 @@
 	  copyField also supports a maxChars to copy setting.  -->
 	   
    <!-- <copyField source="*_t" dest="text" maxChars="3000"/> -->
-
-   <copyField source="screen_name_s" dest="text" maxChars="3000"/>
-
+	
    <!-- copy name to alphaNameSort, a field designed for sorting by name -->
    <!-- <copyField source="name" dest="alphaNameSort"/> -->
  
